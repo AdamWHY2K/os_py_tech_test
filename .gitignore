@@ -1,3 +1,10 @@
+# Script generated files
+latest_timestamp.txt
+*events.json
+
+# Sensitive
+creds.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
