@@ -115,11 +115,11 @@ if __name__ == "__main__":
     activities = fetcher.get_timestamped_activities(start, end)
     fetcher.write_activities_to_file(activities, start, end)
 
-#TODO
 """
 Part two:
 - Identify the user with the most number of events.
+    profileId: 100230688039070881323 (AKA nancy.admin@hyenacapital.net) with 565509 activities
 
 - Which api method (see `method_name` parameter) has returned the most number of bytes to applications?
-
+    method_name: reports.activities.list with 34634824152 bytes
 """
